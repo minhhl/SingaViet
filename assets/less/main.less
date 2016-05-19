@@ -1,0 +1,32 @@
+/**
+ * This is the main application stylesheet. It should include or import all
+ * stylesheets used throughout the application as this is the only stylesheet in
+ * the Grunt configuration that is automatically processed.
+ */
+
+//@import '../../vendor/bootstrap/less/bootstrap.less';
+
+/**
+ * First, we include the Twitter Bootstrap LESS files. Only the ones used in the
+ * project should be imported as the rest are just wasting space.
+ */
+
+/**
+ * This is our main variables file. We must include it last so we can overwrite any variable
+ * definitions in our imported stylesheets.
+ */
+
+@import 'base/reset.less';
+@import 'base/mixins.less';
+@import 'base/variables.less';
+@import 'base/global.less';
+
+@import 'component/common.less';
+@import 'component/font.less';
+@import 'component/animate.less';
+@import 'component/icon.less';
+@import 'component/alert.less';
+@import 'component/calendar.less';
+
+@import 'layout/dialog.less';
+

@@ -1,0 +1,184 @@
+i {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.arrow-down-icon {
+  background-image: url('images/icons/arrow-down.png');
+  width: 10px;
+  height: 5px;
+}
+
+.sidebar-icon {
+  background-image: url('../assets/images/icons/sidebar-icon.png');
+  margin-right: 15px;
+
+  &.icon-dashboard {
+    .icon-sprite(-5px, -5px, 22px, 22px);
+  }
+
+  &.icon-user {
+    .icon-sprite(-69px, -5px, 22px, 23px);
+  }
+
+  &.icon-poll {
+    .icon-sprite(-133px, -5px, 20px, 19px);
+  }
+
+  &.icon-blockuser {
+    .icon-sprite(-193px, -5px, 22px, 22px);
+  }
+
+  &.icon-comment {
+    .icon-sprite(-257px, -5px, 23px, 23px);
+  }
+
+  &.icon-vote {
+    .icon-sprite(-323px, -5px, 18px, 20px);
+  }
+
+  &.icon-admin {
+    .icon-sprite(-379px, -5px, 22px, 19px);
+  }
+}
+
+.navbar-sidebar li {
+  &:hover, &:focus, &.active {
+    .sidebar-icon {
+      &.icon-dashboard {
+        .icon-sprite(-37px, -5px, 22px, 22px);
+      }
+
+      &.icon-user {
+        .icon-sprite(-101px, -5px, 22px, 23px);
+      }
+
+      &.icon-poll {
+        .icon-sprite(-163px, -5px, 20px, 19px);
+      }
+
+      &.icon-blockuser {
+        .icon-sprite(-225px, -5px, 22px, 22px);
+      }
+
+      &.icon-comment {
+        .icon-sprite(-290px, -5px, 23px, 23px);
+      }
+
+      &.icon-vote {
+        .icon-sprite(-351px, -5px, 18px, 20px);
+      }
+
+      &.icon-admin {
+        .icon-sprite(-411px, -5px, 22px, 19px);
+      }
+    }
+  }
+}
+
+.refresh-icon {
+  background: url("../assets/images/icons/refresh-icon.png") no-repeat center center;
+  width: 16px;
+  height: 17px;
+  &.loading {
+    -webkit-animation: fa-spin 2s infinite linear;
+    animation: fa-spin 2s infinite linear;
+  }
+}
+
+.user-icon {
+  background: url("../assets/images/icons/user-icon.png") no-repeat center center;
+  width: 43px;
+  height: 43px;
+}
+
+.login-type {
+  background: url("../assets/images/icons/social-icon.png") no-repeat;
+  &.fb-icon {
+    .icon-sprite(-5px, -5px, 16px, 16px);
+  }
+  &.tt-icon {
+    .icon-sprite(-31px, -5px, 16px, 16px);
+  }
+  &.gm-icon {
+    .icon-sprite(-57px, -5px, 16px, 16px);
+  }
+}
+
+.poll-type-icon {
+  background: url("../assets/images/icons/type-poll-icon.png") no-repeat;
+  &.a-or-b-icon {
+    .icon-sprite(-75px, -7px, 20px, 19px);
+  }
+  &.star-icon {
+    .icon-sprite(-41px, -7px, 20px, 20px);
+  }
+  &.multiple-icon {
+    .icon-sprite(-7px, -7px, 20px, 20px);
+  }
+}
+
+.user-action {
+  background: url("../assets/images/icons/user-action.png");
+  &.change-icon {
+    .icon-sprite(-5px, -5px, 18px, 16px);
+  }
+  &.message-icon {
+    .icon-sprite(-61px, -5px, 16px, 16px);
+  }
+  &.warning-icon {
+    .icon-sprite(-113px, -5px, 16px, 16px);
+  }
+  &.suspend-icon {
+    .icon-sprite(-165px, -5px, 16px, 16px);
+    &.suspended {
+      background-position: -217px -5px;
+    }
+  }
+  &.close-icon {
+    .icon-sprite(-321px, -5px, 19px, 19px);
+    &.closed {
+      background-position: -379px -5px;
+    }
+  }
+  &.block-icon {
+    .icon-sprite(-243px, -5px, 16px, 16px);
+    &.blocked {
+      background-position: -295px -5px;
+    }
+  }
+  &.pin-icon {
+    .icon-sprite(-408px, -5px, 16px, 16px);
+    &.pinned {
+      background-position: -460px -5px;
+    }
+  }
+}
+
+.action-list li {
+  &:hover, &:focus, &.active {
+    .user-action {
+      &.change-icon {
+        background-position: -33px -5px;
+      }
+      &.message-icon {
+        background-position: -87px -5px;
+      }
+      &.warning-icon {
+        background-position: -139px -5px;
+      }
+      &.suspend-icon {
+        background-position: -191px -5px;
+      }
+      &.close-icon {
+        background-position: -350px -5px;
+      }
+      &.block-icon {
+        background-position: -269px -5px;
+      }
+      &.pin-icon {
+        background-position: -434px -5px;
+      }
+    }
+  }
+}

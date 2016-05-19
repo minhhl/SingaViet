@@ -1,0 +1,46 @@
+.ngdialog {
+  font-family: @base-font;
+  &.ngdialog-theme-default {
+    padding-top: 50px;
+    .ngdialog-content {
+      font-family: @base-font;
+      padding: 0;
+      font-size: 13px;
+      .border-radius(6px);
+      width: 100%;
+      max-width: 550px;
+    }
+    .ngdialog-close {
+      &:before {
+        .border-radius(3px);
+        right: 15px;
+        top: 10px;
+        width: 26px;
+        height: 26px;
+        font-size: 20px;
+        line-height: 22px;
+      }
+    }
+  }
+  .dialog-title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 10px 20px;
+  }
+  .dialog-content {
+    background-color: #fff;
+    padding: 20px;
+    .border-radius(5px);
+  }
+  .dialog-action {
+    button {
+      font-weight: 600;
+    }
+  }
+}
+
+.ngdialog.ngdialog-theme-default .ngdialog-content {
+  background-color: #fff;
+}
