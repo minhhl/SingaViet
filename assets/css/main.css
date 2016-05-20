@@ -4940,6 +4940,7 @@ header #header .free-trial {
 #footer .copyright {
   color: white;
   margin-top: 5px;
+  margin-bottom: 5px;
 }
 #footer .social {
   width: 100%;
