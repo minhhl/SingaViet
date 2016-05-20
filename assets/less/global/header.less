@@ -1,0 +1,131 @@
+header{
+  margin-top: 80px;
+  @media (max-width: @xs) {
+    margin-top: 85px;
+  }
+  #header {
+    background-color: #f3f3f3;
+    border: 0;
+    margin-bottom: 0;
+    height: 80px;
+    @media (max-width: @xs) {
+      height: 85px;
+    }
+    .navbar-header{
+      display: block;
+    }
+    .navbar-collapse{
+      position: relative;
+      padding-bottom: 0;
+      background-color: transparent;
+      @media (max-width: @xs) {
+        padding-bottom: 70px;
+        background-color: #f3f3f3;
+      }
+    }
+    .navbar-brand {
+      height: auto;
+    }
+    .main-nav {
+      li {
+        &:after {
+          content: '';
+          position: absolute;
+          border-style: solid;
+          border-width: 0 14px 14px;
+          border-color: #004124 transparent;
+          display: block;
+          width: 0;
+          opacity: 0;
+          z-index: 1;
+          bottom: -10px;
+          margin-top: 0;
+          left: 50%;
+          margin-left: -14px;
+          .transition();
+          @media (max-width: @xs) {
+            border-width: 8px 0 8px 8px;
+            border-color:  transparent #004124;
+            left: 0;
+            bottom: 50%;
+            margin-bottom: -8px;
+            margin-left: 0;
+          }
+        }
+        &.active, &:hover {
+          a {
+            background-color: transparent;
+          }
+          &:after {
+            opacity: 1;
+            bottom: -3px;
+            @media (max-width: @xs) {
+              left: 0;
+              bottom: 50%;
+            }
+          }
+        }
+        a {
+          font-size: 16px;
+          color: #818181;
+          text-transform: uppercase;
+          padding: 30px;
+          @media (max-width: @xs) {
+            padding: 10px 15px;
+          }
+        }
+      }
+    }
+    .sub-nav {
+      margin: 30px 25px;
+      @media (max-width: @xs) {
+        margin: 15px 0;
+      }
+
+      li {
+        a {
+          color: #006600;
+          position: relative;
+          display: block;
+          padding: 0 15px;
+          @media (max-width: @xs) {
+            padding: 0;
+          }
+          .transition();
+          &:hover {
+            color: #009500;
+          }
+          &:after {
+            content: "|";
+            position: absolute;
+            right: -5px;
+            top: 0;
+            @media (max-width: @xs) {
+              content: "";
+            }
+          }
+        }
+        &:last-child {
+          a {
+            &:after {
+              content: '';
+            }
+          }
+        }
+      }
+    }
+    .free-trial {
+      position: relative;
+      margin: 20px 0 10px;
+      display: block;
+      padding: 0;
+      @media (max-width: @xs) {
+        position: absolute;
+        margin: 10px 0;
+        right: 0;
+        bottom: 0;
+        padding: 0 10px;
+      }
+    }
+  }
+}

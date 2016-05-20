@@ -2,22 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dc6c0b3-3218-4986-9fe3-74a93b5a8328" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/lib/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/lib/jquery-1.12.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/lib/jquery-migrate-1.2.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/lib/jquery.dotdotdot.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/lib/lightslider.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/lib/lodash.core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/lib/lodash.core.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/lib/lodash.fp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/lib/lodash.fp.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/lib/lodash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/lib/lodash.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/singa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/lib/slick.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/lib/smooth-scroll.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/lib/wow.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/less/global/banner.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/less/footer.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/less/global/header.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/less/home.less" />
+      <change type="MOVED" beforePath="C:\Users\Minh Hoang\Documents\SingaViet\assets\fonts\FontAwesome.otf" afterPath="$PROJECT_DIR$/assets/css/fonts/FontAwesome.otf" />
+      <change type="MOVED" beforePath="C:\Users\Minh Hoang\Documents\SingaViet\assets\fonts\OpenSans-Bold-webfont.eot" afterPath="$PROJECT_DIR$/assets/css/fonts/OpenSans-Bold-webfont.eot" />
+      <change type="MOVED" beforePath="C:\Users\Minh Hoang\Documents\SingaViet\assets\fonts\OpenSans-Bold-webfont.svg" afterPath="$PROJECT_DIR$/assets/css/fonts/OpenSans-Bold-webfont.svg" />
+      <change type="MOVED" beforePath="C:\Users\Minh Hoang\Documents\SingaViet\assets\fonts\OpenSans-Bold-webfont.ttf" afterPath="$PROJECT_DIR$/assets/css/fonts/OpenSans-Bold-webfont.ttf" />
+      <change type="MOVED" beforePath="C:\Users\Minh Hoang\Documents\SingaViet\assets\fonts\OpenSans-Bold-webfont.woff" afterPath="$PROJECT_DIR$/assets/css/fonts/OpenSans-Bold-webfont.woff" />
+      <change type="MOVED" beforePath="C:\Users\Minh Hoang\Documents\SingaViet\assets\fonts\OpenSans-ExtraBold-webfont.eot" afterPath="$PROJECT_DIR$/assets/css/fonts/OpenSans-ExtraBold-webfont.eot" />
+      <change type="MOVED" beforePath="C:\Users\Minh Hoang\Documents\SingaViet\assets\fonts\OpenSans-ExtraBold-webfont.svg" afterPath="$PROJECT_DIR$/assets/css/fonts/OpenSans-ExtraBold-webfont.svg" />
+      <change type="MOVED" beforePath="C:\Users\Minh Hoang\Documents\SingaViet\assets\fonts\OpenSans-ExtraBold-webfont.ttf" afterPath="$PROJECT_DIR$/assets/css/fonts/OpenSans-ExtraBold-webfont.ttf" />
+      <change type="MOVED" beforePath="C:\Users\Minh Hoang\Documents\SingaViet\assets\fonts\OpenSans-ExtraBold-webfont.woff" afterPath="$PROJECT_DIR$/assets/css/fonts/OpenSans-ExtraBold-webfont.woff" />
+      <change type="MOVED" beforePath="C:\Users\Minh Hoang\Documents\SingaViet\assets\fonts\OpenSans-Light-webfont.eot" afterPath="$PROJECT_DIR$/assets/css/fonts/OpenSans-Light-webfont.eot" />
+      <change type="MOVED" beforePath="C:\Users\Minh Hoang\Documents\SingaViet\assets\fonts\OpenSans-Light-webfont.svg" afterPath="$PROJECT_DIR$/assets/css/fonts/OpenSans-Light-webfont.svg" />
+      <change type="MOVED" beforePath="C:\Users\Minh Hoang\Documents\SingaViet\assets\fonts\OpenSans-Light-webfont.ttf" afterPath="$PROJECT_DIR$/assets/css/fonts/OpenSans-Light-webfont.ttf" />
+      <change type="MOVED" beforePath="C:\Users\Minh Hoang\Documents\SingaViet\assets\fonts\OpenSans-Light-webfont.woff" afterPath="$PROJECT_DIR$/assets/css/fonts/OpenSans-Light-webfont.woff" />
+      <change type="MOVED" beforePath="C:\Users\Minh Hoang\Documents\SingaViet\assets\fonts\OpenSans-Regular-webfont.eot" afterPath="$PROJECT_DIR$/assets/css/fonts/OpenSans-Regular-webfont.eot" />
+      <change type="MOVED" beforePath="C:\Users\Minh Hoang\Documents\SingaViet\assets\fonts\OpenSans-Regular-webfont.svg" afterPath="$PROJECT_DIR$/assets/css/fonts/OpenSans-Regular-webfont.svg" />
+      <change type="MOVED" beforePath="C:\Users\Minh Hoang\Documents\SingaViet\assets\fonts\OpenSans-Regular-webfont.ttf" afterPath="$PROJECT_DIR$/assets/css/fonts/OpenSans-Regular-webfont.ttf" />
+      <change type="MOVED" beforePath="C:\Users\Minh Hoang\Documents\SingaViet\assets\fonts\OpenSans-Regular-webfont.woff" afterPath="$PROJECT_DIR$/assets/css/fonts/OpenSans-Regular-webfont.woff" />
+      <change type="MOVED" beforePath="C:\Users\Minh Hoang\Documents\SingaViet\assets\fonts\OpenSans-Semibold-webfont.eot" afterPath="$PROJECT_DIR$/assets/css/fonts/OpenSans-Semibold-webfont.eot" />
+      <change type="MOVED" beforePath="C:\Users\Minh Hoang\Documents\SingaViet\assets\fonts\OpenSans-Semibold-webfont.svg" afterPath="$PROJECT_DIR$/assets/css/fonts/OpenSans-Semibold-webfont.svg" />
+      <change type="MOVED" beforePath="C:\Users\Minh Hoang\Documents\SingaViet\assets\fonts\OpenSans-Semibold-webfont.ttf" afterPath="$PROJECT_DIR$/assets/css/fonts/OpenSans-Semibold-webfont.ttf" />
+      <change type="MOVED" beforePath="C:\Users\Minh Hoang\Documents\SingaViet\assets\fonts\OpenSans-Semibold-webfont.woff" afterPath="$PROJECT_DIR$/assets/css/fonts/OpenSans-Semibold-webfont.woff" />
+      <change type="MOVED" beforePath="C:\Users\Minh Hoang\Documents\SingaViet\assets\fonts\Pe-icon-7-stroke.eot" afterPath="$PROJECT_DIR$/assets/css/fonts/Pe-icon-7-stroke.eot" />
+      <change type="MOVED" beforePath="C:\Users\Minh Hoang\Documents\SingaViet\assets\fonts\Pe-icon-7-stroke.svg" afterPath="$PROJECT_DIR$/assets/css/fonts/Pe-icon-7-stroke.svg" />
+      <change type="MOVED" beforePath="C:\Users\Minh Hoang\Documents\SingaViet\assets\fonts\Pe-icon-7-stroke.ttf" afterPath="$PROJECT_DIR$/assets/css/fonts/Pe-icon-7-stroke.ttf" />
+      <change type="MOVED" beforePath="C:\Users\Minh Hoang\Documents\SingaViet\assets\fonts\Pe-icon-7-stroke.woff" afterPath="$PROJECT_DIR$/assets/css/fonts/Pe-icon-7-stroke.woff" />
+      <change type="MOVED" beforePath="C:\Users\Minh Hoang\Documents\SingaViet\assets\fonts\fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/assets/css/fonts/fontawesome-webfont.eot" />
+      <change type="MOVED" beforePath="C:\Users\Minh Hoang\Documents\SingaViet\assets\fonts\fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/assets/css/fonts/fontawesome-webfont.svg" />
+      <change type="MOVED" beforePath="C:\Users\Minh Hoang\Documents\SingaViet\assets\fonts\fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/assets/css/fonts/fontawesome-webfont.ttf" />
+      <change type="MOVED" beforePath="C:\Users\Minh Hoang\Documents\SingaViet\assets\fonts\fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/assets/css/fonts/fontawesome-webfont.woff" />
+      <change type="MOVED" beforePath="C:\Users\Minh Hoang\Documents\SingaViet\assets\fonts\fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/assets/css/fonts/fontawesome-webfont.woff2" />
+      <change type="MOVED" beforePath="C:\Users\Minh Hoang\Documents\SingaViet\assets\fonts\glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/assets/css/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MOVED" beforePath="C:\Users\Minh Hoang\Documents\SingaViet\assets\fonts\glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/assets/css/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MOVED" beforePath="C:\Users\Minh Hoang\Documents\SingaViet\assets\fonts\glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/assets/css/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MOVED" beforePath="C:\Users\Minh Hoang\Documents\SingaViet\assets\fonts\glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/assets/css/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MOVED" beforePath="C:\Users\Minh Hoang\Documents\SingaViet\assets\fonts\glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/assets/css/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home.html" afterPath="$PROJECT_DIR$/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/less/main.less" afterPath="$PROJECT_DIR$/assets/less/main.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/less/base/mixins.less" afterPath="$PROJECT_DIR$/assets/less/base/mixins.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/singa.js" afterPath="$PROJECT_DIR$/assets/js/singa.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/less/base/variables.less" afterPath="$PROJECT_DIR$/assets/less/base/variables.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SingaViet.iws" />
@@ -39,32 +68,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/less/main.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.115385">
-              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5072464">
-              <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.74718195">
+              <caret line="73" column="40" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/less/footer.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-19.961538">
+              <caret line="80" column="23" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
+              <folding>
+                <element signature="e#422#784#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/less/main.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.692308">
+              <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="singa.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/singa.js">
+      <file leaf-file-name="home.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/less/home.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="-17.76923">
+              <caret line="316" column="23" selection-start-line="316" selection-start-column="23" selection-end-line="316" selection-end-column="23" />
+              <folding>
+                <element signature="e#8#1034#0" expanded="false" />
+                <element signature="e#313#693#0" expanded="false" />
+                <element signature="e#1047#1931#0" expanded="false" />
+                <element signature="e#5694#6210#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,7 +136,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/assets/less/base/variables.less" />
+        <option value="$PROJECT_DIR$/assets/js/singa.js" />
+        <option value="$PROJECT_DIR$/assets/less/base/mixins.less" />
+        <option value="$PROJECT_DIR$/assets/less/global/banner.less" />
+        <option value="$PROJECT_DIR$/assets/less/global/header.less" />
         <option value="$PROJECT_DIR$/assets/less/main.less" />
+        <option value="$PROJECT_DIR$/assets/less/footer.less" />
+        <option value="$PROJECT_DIR$/assets/less/home.less" />
         <option value="$PROJECT_DIR$/home.html" />
       </list>
     </option>
@@ -125,6 +184,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -156,6 +217,10 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="less" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -175,10 +240,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SingaViet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SingaViet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SingaViet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SingaViet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -186,11 +281,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Minh Hoang/Documents/SingaViet/assets/less/base/global.less" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Minh Hoang\Documents\SingaViet\assets\js" />
       <recent name="C:\Users\Minh Hoang\Documents\SingaViet\assets\css" />
+      <recent name="C:\Users\Minh Hoang\Documents\SingaViet\assets\js" />
       <recent name="C:\Users\Minh Hoang\Documents\SingaViet\assets\less" />
       <recent name="C:\Users\Minh Hoang\Documents\SingaViet\assets" />
     </key>
@@ -229,6 +325,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
   </component>
@@ -248,19 +350,19 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -273,7 +375,21 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/css/bootstrap.min.css">
+    <entry file="file://$PROJECT_DIR$/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="43" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/less/global/header.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -281,7 +397,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/less/base/reset.less">
+    <entry file="file://$PROJECT_DIR$/assets/less/base/global.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -289,18 +405,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/less/main.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.115385">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/lib/lodash.js">
+    <entry file="file://$PROJECT_DIR$/assets/less/base/variables.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -315,9 +423,178 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5072464">
-          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="43" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/less/global/header.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/less/base/global.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/less/base/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/singa.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/less/base/reset.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/lib/lodash.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3467742">
+          <caret line="4" column="16343" selection-start-line="4" selection-start-column="16343" selection-end-line="4" selection-end-column="16343" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/less/base/global.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/singa.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/download-report.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/tab-banner.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/less/base/mixins.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8083736">
+          <caret line="292" column="13" selection-start-line="292" selection-start-column="1" selection-end-line="292" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/less/global/banner.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.730769">
+          <caret line="115" column="26" selection-start-line="115" selection-start-column="26" selection-end-line="115" selection-end-column="26" />
+          <folding>
+            <element signature="e#388#528#0" expanded="false" />
+            <element signature="e#827#955#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/less/base/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60225445">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/less/global/header.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16425121">
+          <caret line="130" column="1" selection-start-line="130" selection-start-column="1" selection-end-line="130" selection-end-column="1" />
+          <folding>
+            <element signature="e#92#2782#0" expanded="false" />
+            <element signature="e#523#550#0" expanded="false" />
+            <element signature="e#1767#2507#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/less/footer.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.961538">
+          <caret line="80" column="23" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
+          <folding>
+            <element signature="e#422#784#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/less/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.692308">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/less/home.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.76923">
+          <caret line="316" column="23" selection-start-line="316" selection-start-column="23" selection-end-line="316" selection-end-column="23" />
+          <folding>
+            <element signature="e#8#1034#0" expanded="false" />
+            <element signature="e#313#693#0" expanded="false" />
+            <element signature="e#1047#1931#0" expanded="false" />
+            <element signature="e#5694#6210#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.74718195">
+          <caret line="73" column="40" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

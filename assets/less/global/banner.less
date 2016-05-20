@@ -1,0 +1,127 @@
+#banner {
+  background: url("../images/banner.png") no-repeat scroll center / cover ;
+  clear: both;
+  display: block;
+  width: 100%;
+  position: relative;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  min-height: 450px;
+  &:after {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    content: '';
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  h2, h3 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+    left: 0;
+    font-weight: bold;
+    z-index: 1;
+  }
+  h3 {
+    font-size: 25px;
+    &.description-text {
+      &:nth-of-type(1) {
+        top: 38%;
+        @media (max-width: @xs) {
+          top: 32%;
+        }
+      }
+      &:nth-of-type(2) {
+        top: 45%;
+        @media (max-width: @xs) {
+          top: 40%;
+        }
+      }
+    }
+  }
+  h2 {
+    font-size: 32px;
+    font-style: italic;
+    text-transform: uppercase;
+    &.description-text {
+      top: 55%;
+    }
+  }
+  .download-report{
+    position: absolute;
+    background: url("../images/download-report.png") no-repeat center top;
+    width: 161px;
+    display: block;
+    height: 98px;
+    left: 50%;
+    bottom: -2px;
+    margin-left: -80px;
+    z-index: 1;
+  }
+}
+
+#tab-control{
+  background: url("../images/tab-banner.png") no-repeat center / cover;
+  width: 100%;
+  height: 95px;
+  display: block;
+  .video-tab{
+    width: 100%;
+    height: 95px;
+    padding: 7px 15px 7px 180px;
+    display: block;
+    position: relative;
+    @media (max-width: @xs) {
+      padding: 7px 15px 7px 140px;
+    }
+    @media (max-width: 480px) {
+      padding: 7px 15px 7px 15px;
+    }
+    .video-business{
+      background: url("../images/video-business.png") no-repeat;
+      width: 81px;
+      height: 81px;
+      position: absolute;
+      left: 81px;
+      top: 7px;
+      @media (max-width: @xs) {
+        left: 45px;
+      }
+      @media (max-width: 480px) {
+        left: 0;
+      }
+    }
+    .video-student{
+      background: url("../images/video-student.png") no-repeat;
+      width: 81px;
+      height: 81px;
+      position: absolute;
+      left: 81px;
+      top: 7px;
+      @media (max-width: @xs) {
+        left: 45px;
+      }
+    }
+    span{
+      font-size: 28px;
+      font-weight: 500;
+      color: #197a0c;
+      line-height: 81px;
+      vertical-align: middle;
+      display: block;
+      @media (max-width: @sm) {
+        line-height: 40px;
+      }
+      @media (max-width: @xs) {
+        line-height: 35px;
+      }
+      @media (max-width: 480px) {
+        display: none;
+      }
+    }
+  }
+}
