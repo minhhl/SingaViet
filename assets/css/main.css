@@ -4675,6 +4675,11 @@ header #header .main-nav li a {
   text-transform: uppercase;
   padding: 30px;
 }
+@media (max-width: 991px) {
+  header #header .main-nav li a {
+    padding: 30px 5px;
+  }
+}
 @media (max-width: 767px) {
   header #header .main-nav li a {
     padding: 10px 15px;
@@ -4682,6 +4687,11 @@ header #header .main-nav li a {
 }
 header #header .sub-nav {
   margin: 30px 25px;
+}
+@media (max-width: 991px) {
+  header #header .sub-nav {
+    margin: -5px 5px;
+  }
 }
 @media (max-width: 767px) {
   header #header .sub-nav {
@@ -4698,6 +4708,11 @@ header #header .sub-nav li a {
   -o-transition: all 0.2s ease-out;
   -ms-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
+}
+@media (max-width: 991px) {
+  header #header .sub-nav li a {
+    padding: 0 5px 0 10px;
+  }
 }
 @media (max-width: 767px) {
   header #header .sub-nav li a {
@@ -4718,6 +4733,11 @@ header #header .sub-nav li a:after {
     content: "";
   }
 }
+@media (max-width: 991px) {
+  header #header .sub-nav li:last-child a {
+    padding: 0 0 0 10px;
+  }
+}
 header #header .sub-nav li:last-child a:after {
   content: '';
 }
@@ -4726,6 +4746,11 @@ header #header .free-trial {
   margin: 20px 0 10px;
   display: block;
   padding: 0;
+}
+@media (max-width: 991px) {
+  header #header .free-trial {
+    margin: 5px 0;
+  }
 }
 @media (max-width: 767px) {
   header #header .free-trial {
@@ -5311,4 +5336,149 @@ header #header .free-trial {
 }
 #trial .trial-block a {
   display: block;
+}
+#screen {
+  clear: both;
+  width: 100%;
+  height: 100%;
+  display: block;
+  padding: 35px 0 15px;
+  min-height: 270px;
+  position: relative;
+  background-color: #14b04d;
+}
+#screen .screen-title {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+#screen .screen-content {
+  font-size: 16px;
+  padding-right: 40px;
+  color: white;
+  margin-bottom: 10px;
+}
+@media (max-width: 991px) {
+  #screen .screen-content {
+    padding: 0;
+  }
+}
+#screen img {
+  margin: 0 auto;
+}
+#smart-box {
+  clear: both;
+  width: 100%;
+  height: 100%;
+  display: block;
+  padding: 35px 0 15px;
+  min-height: 270px;
+  position: relative;
+  background-color: #fff;
+}
+#smart-box .smart-block {
+  width: 100%;
+  padding: 0 30px 0 85px;
+  margin-bottom: 30px;
+  color: #343434;
+  position: relative;
+}
+#smart-box .smart-block .smart-title {
+  color: #005d34;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#smart-box .smart-block:after {
+  position: absolute;
+  content: '';
+  width: 58px;
+  height: 58px;
+  left: 15px;
+  top: 0;
+}
+#smart-box .smart-block.icon-smart-board:after {
+  background: url("../images/smart-board.png") no-repeat;
+}
+#smart-box .smart-block.icon-smart-rec:after {
+  background: url("../images/smart-rec.png") no-repeat;
+}
+#viewed {
+  clear: both;
+  width: 100%;
+  height: 100%;
+  display: block;
+  padding: 0 0 15px;
+  min-height: 140px;
+  position: relative;
+  background-color: #e3e3e3;
+}
+#viewed .title-viewed {
+  margin-top: -3px;
+}
+#viewed .title-viewed-search {
+  font-weight: bold;
+  color: #076538;
+  line-height: 55px;
+  vertical-align: middle;
+  margin-bottom: 15px;
+}
+@media (max-width: 767px) {
+  #viewed .title-viewed-search {
+    margin-bottom: 0;
+  }
+}
+#viewed .list-viewed {
+  display: block;
+  margin-left: 15px;
+}
+#viewed .list-viewed li a {
+  color: #454545;
+  display: block;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 5px;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+#viewed .list-viewed li a:hover {
+  text-decoration: underline;
+}
+#viewed .list-viewed li a:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url("../images/note.png") no-repeat;
+  width: 13px;
+  height: 17px;
+}
+#viewed .list-find {
+  display: block;
+}
+#viewed .list-find li {
+  display: inline-block;
+}
+#viewed .list-find li a {
+  color: #454545;
+  padding: 0 10px 0 0;
+  margin-bottom: 10px;
+  position: relative;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+#viewed .list-find li a:hover {
+  text-decoration: underline;
+}
+#viewed .list-find li a:after {
+  content: '|';
+  right: 0;
+  top: 0;
+  position: absolute;
 }

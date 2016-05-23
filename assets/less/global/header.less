@@ -70,6 +70,9 @@ header{
           color: #818181;
           text-transform: uppercase;
           padding: 30px;
+          @media (max-width: @sm) {
+            padding: 30px 5px;
+          }
           @media (max-width: @xs) {
             padding: 10px 15px;
           }
@@ -78,6 +81,9 @@ header{
     }
     .sub-nav {
       margin: 30px 25px;
+      @media (max-width: @sm) {
+        margin: -5px 5px;
+      }
       @media (max-width: @xs) {
         margin: 15px 0;
       }
@@ -88,6 +94,9 @@ header{
           position: relative;
           display: block;
           padding: 0 15px;
+          @media (max-width: @sm) {
+            padding: 0 5px 0 10px;
+          }
           @media (max-width: @xs) {
             padding: 0;
           }
@@ -107,6 +116,9 @@ header{
         }
         &:last-child {
           a {
+            @media (max-width: @sm) {
+              padding: 0 0 0 10px;
+            }
             &:after {
               content: '';
             }
@@ -119,6 +131,9 @@ header{
       margin: 20px 0 10px;
       display: block;
       padding: 0;
+      @media (max-width: @sm) {
+        margin: 5px 0;
+      }
       @media (max-width: @xs) {
         position: absolute;
         margin: 10px 0;
